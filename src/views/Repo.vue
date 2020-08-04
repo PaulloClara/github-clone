@@ -1,6 +1,6 @@
 <template lang="html">
-  <main id="p-home" class="page">
-    <h1>Home</h1>
+  <main id="p-repo" class="page">
+    <h1>Repo</h1>
   </main>
 </template>
 
@@ -8,7 +8,7 @@
 import { Component, Vue } from "vue-property-decorator";
 
 @Component
-export default class HomePage extends Vue {}
+export default class RepoPage extends Vue {}
 </script>
 
 <style lang="css" scoped></style>

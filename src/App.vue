@@ -1,14 +1,22 @@
-<template>
+<template lang="html">
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+
     <router-view />
   </div>
 </template>
 
-<style>
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+
+@Component
+export default class App extends Vue {}
+</script>
+
+<style lang="css" scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
