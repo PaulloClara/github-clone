@@ -1,6 +1,7 @@
 {
   "name": "github-clone",
   "version": "0.1.0",
+  "description": "Recriando interface do Github com VueJS | UI Clone",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
