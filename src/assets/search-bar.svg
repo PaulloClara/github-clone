@@ -1,0 +1,10 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 512 512">
+  <path fill="none" stroke="#979a9c" opacity="0.4" d="m 100.89443,12.84735 h 309.53686 c 43.85106,0 77.38421,33.27352 77.38421,76.785046 V 422.36761 c 0,43.51153 -33.53315,76.78504 -77.38421,76.78504 H 100.89443 c -43.851059,0 -77.384219,-33.27351 -77.384219,-76.78504 V 89.632396 c 0,-43.511526 33.53316,-76.785046 77.384219,-76.785046 z" id="path2" style="stroke-width:25.6947" />
+  <path style="stroke-width:21.319" fill="#979a9c" d="M 305.72617,158.9283 224.77273,353.07169 H 205.59955 L 284.42264,158.9283 Z" id="path4" />
+</svg>
