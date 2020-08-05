@@ -8,6 +8,7 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+
 import Appbar from "@/components/Appbar.vue";
 
 @Component({
