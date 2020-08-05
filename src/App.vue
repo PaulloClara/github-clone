@@ -1,13 +1,20 @@
 <template lang="html">
   <div id="app">
+    <c-appbar></c-appbar>
+
     <router-view />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import Appbar from "@/components/Appbar.vue";
 
-@Component
+@Component({
+  components: {
+    "c-appbar": Appbar
+  }
+})
 export default class App extends Vue {}
 </script>
 
