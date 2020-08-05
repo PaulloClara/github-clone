@@ -13,10 +13,10 @@ export default class App extends Vue {}
 
 <style lang="css" scoped>
 #app {
-  color: #2c3e50;
+  color: var(--black);
   text-align: center;
 
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
