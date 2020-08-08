@@ -1,0 +1,9 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 512 512">
+  <path d="m 256,0 a 32,32 0 0 1 32,32 v 192 h 192 a 32,32 0 0 1 0,64 H 288 v 192 a 32,32 0 0 1 -64,0 V 288 H 32 a 32,32 0 0 1 0,-64 H 224 V 32 A 32,32 0 0 1 256,0 Z" fill-rule="evenodd" />
+</svg>
