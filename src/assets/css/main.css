@@ -4,3 +4,22 @@
 
   box-sizing: border-box;
 }
+
+button,
+input {
+  border: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+ul > * {
+  list-style: none;
+}

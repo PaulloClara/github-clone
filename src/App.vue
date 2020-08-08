@@ -22,6 +22,7 @@ export default class App extends Vue {}
 <style lang="css" scoped>
 #app {
   color: var(--black);
+  font-size: 14px;
   text-align: center;
 
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif;
