@@ -9,22 +9,22 @@ const routes: Array<RouteConfig> = [
   {
     path: "/",
     name: "Home",
-    component: Home,
+    component: Home
   },
   {
     path: "/:username",
     name: "Profile",
-    component: () => import("../views/Profile.vue"),
+    component: () => import("../views/Profile.vue")
   },
   {
     path: "/:username/:repo",
     name: "Repo",
-    component: () => import("../views/Repo.vue"),
-  },
+    component: () => import("../views/Repo.vue")
+  }
 ];
 
 const router = new VueRouter({
-  routes,
+  routes
 });
 
 export default router;

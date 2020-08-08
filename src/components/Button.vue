@@ -9,12 +9,13 @@
 </template>
 
 <script lang="ts">
+import { Route } from "vue-router";
 import { Prop, Component, Vue } from "vue-property-decorator";
 
 @Component
 export default class Button extends Vue {
   @Prop({ type: String, required: true }) readonly pType: string;
-  @Prop({ type: [String, Object], required: false }) readonly pTo?: any;
+  @Prop({ type: [String, Object], required: false }) readonly pTo?: Route;
   @Prop({ type: Boolean, required: false, default: false }) pIcon?: boolean;
 
   get isRouterLink() {
@@ -23,7 +24,7 @@ export default class Button extends Vue {
 
   public loadDataset() {
     if (this.pIcon) {
-      this.$el.dataset.icon = "";
+      this.$el.setAttribute("data-icon", "");
     }
   }
 
@@ -34,9 +35,6 @@ export default class Button extends Vue {
 </script>
 
 <style lang="css" scoped>
-.c-button {
-}
-
 .c-button[data-icon] {
   background-color: transparent;
 }

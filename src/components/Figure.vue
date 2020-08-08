@@ -7,6 +7,7 @@
 
 <script lang="ts">
 import { Prop, Component, Vue } from "vue-property-decorator";
+import { CustomEvent } from "@/utils/types";
 
 @Component
 export default class Figure extends Vue {
@@ -28,7 +29,7 @@ export default class Figure extends Vue {
     return this.pSrc.includes("http");
   }
 
-  public async injectSvg({ target: el }) {
+  public async injectSvg({ target: el }: CustomEvent) {
     const response = await fetch(this.path);
     const svgText = await response.text();
     const svgDoc = this.parser.parseFromString(svgText, "image/svg+xml");
